@@ -5,9 +5,9 @@
 > and runs on iOS / Android / Web / Desktop from one codebase.
 
 <p align="center">
-  <img src="screenshots/03-home-dark.png" width="240" alt="Home dark"/>
-  <img src="screenshots/05-wallet.png"     width="240" alt="Wallet"/>
-  <img src="screenshots/07-stats.png"      width="240" alt="Stats"/>
+  <img src="screenshots/03-home-dark.svg" width="240" alt="Home dark"/>
+  <img src="screenshots/05-wallet.svg"     width="240" alt="Wallet"/>
+  <img src="screenshots/07-stats.svg"      width="240" alt="Stats"/>
 </p>
 
 ---
@@ -44,23 +44,24 @@ a UI demonstration, not a connected bank).
 
 ## 📸 Screenshots
 
-> Drop your captures into `screenshots/` (filenames listed in
-> [`screenshots/README.md`](screenshots/README.md)).
+> Mockups below are pixel-accurate SVG previews of every screen in the app
+> built from the same design tokens (`tokens.css` / `tokens.dart`). Replace
+> any of them with real captures by following [`screenshots/README.md`](screenshots/README.md).
 
 ### Onboarding & Auth
 | Onboarding | Sign in |
 |---|---|
-| ![Onboarding](screenshots/01-onboarding.png) | ![Sign in](screenshots/02-signin.png) |
+| ![Onboarding](screenshots/01-onboarding.svg) | ![Sign in](screenshots/02-signin.svg) |
 
 ### Main tabs
 | Home (dark) | Home (light) | Wallet | Stats | Profile |
 |---|---|---|---|---|
-| ![Home dark](screenshots/03-home-dark.png) | ![Home light](screenshots/04-home-light.png) | ![Wallet](screenshots/05-wallet.png) | ![Stats](screenshots/07-stats.png) | ![Profile](screenshots/08-profile.png) |
+| ![Home dark](screenshots/03-home-dark.svg) | ![Home light](screenshots/04-home-light.svg) | ![Wallet](screenshots/05-wallet.svg) | ![Stats](screenshots/07-stats.svg) | ![Profile](screenshots/08-profile.svg) |
 
 ### Flows
 | Send money | Receipt | Transaction detail | Notifications |
 |---|---|---|---|
-| ![Send](screenshots/09-send.png) | ![Receipt](screenshots/10-receipt.png) | ![Detail](screenshots/11-txn-detail.png) | ![Notifs](screenshots/12-notifs.png) |
+| ![Send](screenshots/09-send.svg) | ![Receipt](screenshots/10-receipt.svg) | ![Detail](screenshots/11-txn-detail.svg) | ![Notifs](screenshots/12-notifs.svg) |
 
 ---
 

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 580" width="280" height="580" font-family="-apple-system, system-ui, sans-serif">
+  <defs>
+    <radialGradient id="aurora1" cx="85%" cy="90%" r="60%"><stop offset="0%" stop-color="#2E7D52" stop-opacity=".25"/><stop offset="100%" stop-color="#2E7D52" stop-opacity="0"/></radialGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2E7D52"/><stop offset="50%" stop-color="#14233A"/><stop offset="100%" stop-color="#1A2E47"/></linearGradient>
+    <linearGradient id="card1b" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2E7D52" stop-opacity=".7"/><stop offset="100%" stop-color="#14233A" stop-opacity=".7"/></linearGradient>
+    <linearGradient id="btn1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a8f63"/><stop offset="100%" stop-color="#2E7D52"/></linearGradient>
+  </defs>
+  <rect width="280" height="580" rx="36" fill="#0a121b"/>
+  <rect x="6" y="6" width="268" height="568" rx="30" fill="#1C2B3A"/>
+  <rect x="6" y="6" width="268" height="568" rx="30" fill="url(#aurora1)"/>
+
+  <!-- Status bar -->
+  <text x="24" y="30" fill="#F7FAF8" font-size="10" font-weight="600">9:41</text>
+  <g transform="translate(232,22)" fill="#F7FAF8"><rect x="0" y="3" width="3" height="6" rx="1"/><rect x="5" y="1" width="3" height="8" rx="1"/><rect x="10" y="-1" width="3" height="10" rx="1"/><rect x="15" y="-3" width="3" height="12" rx="1"/></g>
+  <rect x="256" y="20" width="14" height="8" rx="2" stroke="#F7FAF8" stroke-width="1" fill="none"/><rect x="258" y="22" width="9" height="4" fill="#F7FAF8"/>
+
+  <!-- Header -->
+  <circle cx="28" cy="58" r="12" fill="none" stroke="#2E7D52" stroke-width="1.4"/>
+  <path d="M22 66 L28 50 L34 66 M24.5 62 L31.5 62" stroke="#2E7D52" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <text x="46" y="62" fill="#F7FAF8" font-size="11" font-weight="800" letter-spacing="2">FINTINO</text>
+  <rect x="225" y="50" width="38" height="20" rx="10" fill="#264C3F" fill-opacity=".6" stroke="#2E7D52" stroke-opacity=".4"/>
+  <text x="244" y="64" fill="#F7FAF8" font-size="9" font-weight="600" text-anchor="middle">Skip</text>
+
+  <!-- Aurora glow -->
+  <circle cx="140" cy="240" r="120" fill="#2E7D52" fill-opacity=".15" filter="blur(20px)"/>
+
+  <!-- Back card (peek) -->
+  <g transform="translate(160,230) rotate(10)">
+    <rect width="160" height="100" rx="12" fill="url(#card1b)" stroke="#2E7D52" stroke-opacity=".3"/>
+    <text x="14" y="22" fill="#F7FAF8" fill-opacity=".55" font-size="6" font-weight="700" letter-spacing="1.6">FINTINO BANK</text>
+    <text x="14" y="42" fill="#C9A84C" font-size="14" font-weight="800">$38,210.00</text>
+    <text x="14" y="78" fill="#F7FAF8" fill-opacity=".7" font-size="7" letter-spacing="2">•••• •••• •••• 2840</text>
+  </g>
+
+  <!-- Front card -->
+  <g transform="translate(40,180) rotate(-6)">
+    <rect width="200" height="125" rx="14" fill="url(#card1)" stroke="#2E7D52" stroke-opacity=".4"/>
+    <circle cx="-10" cy="0" r="60" fill="#2E7D52" fill-opacity=".4"/>
+    <text x="16" y="24" fill="#F7FAF8" fill-opacity=".7" font-size="7" font-weight="700" letter-spacing="1.6">FINTINO BANK</text>
+    <text x="16" y="48" fill="#C9A84C" font-size="18" font-weight="800">$12,840.50</text>
+    <rect x="160" y="14" width="28" height="20" rx="3" fill="#C9A84C"/>
+    <rect x="166" y="20" width="16" height="8" stroke="#000" stroke-opacity=".3" fill="none"/>
+    <text x="16" y="86" fill="#F7FAF8" fill-opacity=".7" font-size="8" letter-spacing="2.6">•••• •••• •••• 5025</text>
+    <text x="16" y="106" fill="#F7FAF8" font-size="8" font-weight="700">TINO WELL</text>
+    <text x="180" y="108" fill="#F7FAF8" font-size="11" font-weight="900" font-style="italic" text-anchor="end">VISA</text>
+  </g>
+
+  <!-- Step indicator -->
+  <text x="22" y="380" fill="#2E7D52" font-size="9" font-weight="700" letter-spacing="1.4">01</text>
+  <text x="40" y="380" fill="#F7FAF8" fill-opacity=".4" font-size="9" font-weight="700">· 3</text>
+
+  <!-- Title -->
+  <text x="22" y="420" fill="#F7FAF8" font-size="22" font-weight="800" letter-spacing="-1">Money that</text>
+  <text x="22" y="448" fill="#F7FAF8" font-size="22" font-weight="800" letter-spacing="-1">moves like light.</text>
+
+  <!-- Sub -->
+  <text x="22" y="475" fill="#F7FAF8" fill-opacity=".62" font-size="10">Open your first card in 30 seconds.</text>
+  <text x="22" y="490" fill="#F7FAF8" fill-opacity=".62" font-size="10">No paperwork, no branch visit.</text>
+
+  <!-- Dots + button -->
+  <rect x="22" y="525" width="22" height="6" rx="3" fill="url(#btn1)"/>
+  <circle cx="56" cy="528" r="3" fill="#F7FAF8" fill-opacity=".25"/>
+  <circle cx="68" cy="528" r="3" fill="#F7FAF8" fill-opacity=".25"/>
+
+  <rect x="170" y="514" width="98" height="32" rx="16" fill="url(#btn1)"/>
+  <text x="200" y="534" fill="#fff" font-size="11" font-weight="700">Continue</text>
+  <text x="252" y="534" fill="#fff" font-size="13" font-weight="700">→</text>
+</svg>

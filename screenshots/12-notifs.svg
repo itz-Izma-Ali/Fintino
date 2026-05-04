@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 580" width="280" height="580" font-family="-apple-system, system-ui, sans-serif">
+  <defs>
+    <radialGradient id="an" cx="85%" cy="90%" r="70%"><stop offset="0%" stop-color="#2E7D52" stop-opacity=".22"/><stop offset="100%" stop-color="#2E7D52" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="280" height="580" rx="36" fill="#0a121b"/>
+  <rect x="6" y="6" width="268" height="568" rx="30" fill="#1C2B3A"/>
+  <rect x="6" y="6" width="268" height="568" rx="30" fill="url(#an)"/>
+  <text x="24" y="30" fill="#F7FAF8" font-size="10" font-weight="600">9:41</text>
+  <rect x="256" y="20" width="14" height="8" rx="2" stroke="#F7FAF8" stroke-width="1" fill="none"/><rect x="258" y="22" width="9" height="4" fill="#F7FAF8"/>
+
+  <rect x="20" y="50" width="34" height="34" rx="17" fill="#2E7D52" fill-opacity=".15" stroke="#2E7D52" stroke-opacity=".25"/>
+  <text x="32" y="73" fill="#F7FAF8" font-size="16" font-weight="700">←</text>
+  <text x="64" y="68" fill="#F7FAF8" font-size="18" font-weight="800" letter-spacing="-.5">Notifications</text>
+  <text x="64" y="82" fill="#F7FAF8" fill-opacity=".62" font-size="10">4 unread</text>
+  <rect x="226" y="50" width="34" height="34" rx="17" fill="#264c3f" fill-opacity=".4" stroke="#2E7D52" stroke-opacity=".25"/>
+  <text x="243" y="74" fill="#F7FAF8" font-size="14" font-weight="700" text-anchor="middle">✓✓</text>
+
+  <!-- List card -->
+  <rect x="16" y="106" width="248" height="450" rx="18" fill="#264c3f" fill-opacity=".18" stroke="#2E7D52" stroke-opacity=".22"/>
+
+  <g font-size="11" fill="#F7FAF8">
+    <!-- Item 1 unread -->
+    <g transform="translate(28,118)">
+      <rect width="32" height="32" rx="10" fill="#2E7D52" fill-opacity=".22"/>
+      <text x="16" y="22" fill="#2E7D52" font-size="14" font-weight="700" text-anchor="middle">↓</text>
+      <circle cx="32" cy="2" r="5" fill="#C9A84C" stroke="#1C2B3A" stroke-width="2"/>
+      <text x="48" y="14" font-weight="700">Payment received</text>
+      <text x="48" y="28" fill-opacity=".62" font-size="10">Alec Koder sent $100.00</text>
+      <text x="220" y="20" fill-opacity=".5" font-size="10" text-anchor="end">now</text>
+    </g>
+    <line x1="28" y1="166" x2="252" y2="166" stroke="#F7FAF8" stroke-opacity=".08"/>
+
+    <g transform="translate(28,178)">
+      <rect width="32" height="32" rx="10" fill="#2E7D52" fill-opacity=".22"/>
+      <text x="16" y="22" fill="#2E7D52" font-size="13" font-weight="700" text-anchor="middle">▭</text>
+      <circle cx="32" cy="2" r="5" fill="#C9A84C" stroke="#1C2B3A" stroke-width="2"/>
+      <text x="48" y="14" font-weight="700">Card activated</text>
+      <text x="48" y="28" fill-opacity=".62" font-size="10">Savings ••2840 is ready</text>
+      <text x="220" y="20" fill-opacity=".5" font-size="10" text-anchor="end">1h</text>
+    </g>
+    <line x1="28" y1="226" x2="252" y2="226" stroke="#F7FAF8" stroke-opacity=".08"/>
+
+    <g transform="translate(28,238)">
+      <rect width="32" height="32" rx="10" fill="#2E7D52" fill-opacity=".22"/>
+      <text x="16" y="22" fill="#2E7D52" font-size="14" font-weight="700" text-anchor="middle">↗</text>
+      <circle cx="32" cy="2" r="5" fill="#C9A84C" stroke="#1C2B3A" stroke-width="2"/>
+      <text x="48" y="14" font-weight="700">Weekly summary</text>
+      <text x="48" y="28" fill-opacity=".62" font-size="10">You spent $1,228 this week</text>
+      <text x="220" y="20" fill-opacity=".5" font-size="10" text-anchor="end">3h</text>
+    </g>
+    <line x1="28" y1="286" x2="252" y2="286" stroke="#F7FAF8" stroke-opacity=".08"/>
+
+    <g transform="translate(28,298)">
+      <rect width="32" height="32" rx="10" fill="#2E7D52" fill-opacity=".22"/>
+      <text x="16" y="22" fill="#2E7D52" font-size="13" font-weight="700" text-anchor="middle">⛨</text>
+      <circle cx="32" cy="2" r="5" fill="#C9A84C" stroke="#1C2B3A" stroke-width="2"/>
+      <text x="48" y="14" font-weight="700">New sign-in</text>
+      <text x="48" y="28" fill-opacity=".62" font-size="10">iPhone 15 · San Francisco</text>
+      <text x="220" y="20" fill-opacity=".5" font-size="10" text-anchor="end">yesterday</text>
+    </g>
+    <line x1="28" y1="346" x2="252" y2="346" stroke="#F7FAF8" stroke-opacity=".08"/>
+
+    <!-- Item 5 read (no dot, lighter) -->
+    <g transform="translate(28,358)" opacity=".75">
+      <rect width="32" height="32" rx="10" fill="#2E7D52" fill-opacity=".22"/>
+      <text x="16" y="22" fill="#2E7D52" font-size="13" text-anchor="middle">↗</text>
+      <text x="48" y="14" font-weight="500">Transfer sent</text>
+      <text x="48" y="28" fill-opacity=".62" font-size="10">$1,600 to Pawan Kumar</text>
+      <text x="220" y="20" fill-opacity=".5" font-size="10" text-anchor="end">Wed</text>
+    </g>
+    <line x1="28" y1="406" x2="252" y2="406" stroke="#F7FAF8" stroke-opacity=".08"/>
+
+    <g transform="translate(28,418)" opacity=".75">
+      <rect width="32" height="32" rx="10" fill="#2E7D52" fill-opacity=".22"/>
+      <text x="16" y="22" fill="#2E7D52" font-size="13" text-anchor="middle">🎁</text>
+      <text x="48" y="14" font-weight="500">Cashback earned</text>
+      <text x="48" y="28" fill-opacity=".62" font-size="10">+$24.50 this week</text>
+      <text x="220" y="20" fill-opacity=".5" font-size="10" text-anchor="end">Tue</text>
+    </g>
+    <line x1="28" y1="466" x2="252" y2="466" stroke="#F7FAF8" stroke-opacity=".08"/>
+
+    <g transform="translate(28,478)" opacity=".75">
+      <rect width="32" height="32" rx="10" fill="#2E7D52" fill-opacity=".22"/>
+      <text x="16" y="22" fill="#2E7D52" font-size="13" text-anchor="middle">⚙</text>
+      <text x="48" y="14" font-weight="500">Limit updated</text>
+      <text x="48" y="28" fill-opacity=".62" font-size="10">Daily limit set to $5,000</text>
+      <text x="220" y="20" fill-opacity=".5" font-size="10" text-anchor="end">Mon</text>
+    </g>
+  </g>
+</svg>

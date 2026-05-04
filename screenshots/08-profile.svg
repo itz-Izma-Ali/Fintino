@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 580" width="280" height="580" font-family="-apple-system, system-ui, sans-serif">
+  <defs>
+    <radialGradient id="ap" cx="85%" cy="90%" r="70%"><stop offset="0%" stop-color="#2E7D52" stop-opacity=".22"/><stop offset="100%" stop-color="#2E7D52" stop-opacity="0"/></radialGradient>
+    <linearGradient id="avRing" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2E7D52"/><stop offset="50%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#4CAF7A"/></linearGradient>
+    <linearGradient id="modeIcon" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1C2B3A"/><stop offset="100%" stop-color="#2E7D52"/></linearGradient>
+  </defs>
+  <rect width="280" height="580" rx="36" fill="#0a121b"/>
+  <rect x="6" y="6" width="268" height="568" rx="30" fill="#1C2B3A"/>
+  <rect x="6" y="6" width="268" height="568" rx="30" fill="url(#ap)"/>
+  <text x="24" y="30" fill="#F7FAF8" font-size="10" font-weight="600">9:41</text>
+  <rect x="256" y="20" width="14" height="8" rx="2" stroke="#F7FAF8" stroke-width="1" fill="none"/><rect x="258" y="22" width="9" height="4" fill="#F7FAF8"/>
+
+  <text x="20" y="68" fill="#F7FAF8" font-size="20" font-weight="800" letter-spacing="-.5">Profile</text>
+
+  <!-- Identity card -->
+  <rect x="16" y="92" width="248" height="190" rx="20" fill="#264c3f" fill-opacity=".18" stroke="#2E7D52" stroke-opacity=".22"/>
+  <!-- Gradient ring avatar -->
+  <circle cx="140" cy="130" r="36" fill="url(#avRing)"/>
+  <circle cx="140" cy="130" r="32" fill="#1C2B3A"/>
+  <circle cx="140" cy="130" r="28" fill="#2E7D52" fill-opacity=".22"/>
+  <circle cx="140" cy="124" r="9" fill="#2E7D52"/>
+  <path d="M124 144 Q140 132 156 144" stroke="#2E7D52" stroke-width="4" fill="none"/>
+
+  <text x="140" y="184" fill="#F7FAF8" font-size="18" font-weight="800" text-anchor="middle">Tino Well</text>
+  <text x="140" y="198" fill="#F7FAF8" fill-opacity=".62" font-size="10" text-anchor="middle">tino@aperture.bank</text>
+
+  <!-- Chips -->
+  <rect x="92" y="208" width="58" height="22" rx="11" fill="#2E7D52" fill-opacity=".25" stroke="#C9A84C" stroke-opacity=".5"/>
+  <text x="121" y="222" fill="#C9A84C" font-size="9" font-weight="700" text-anchor="middle">★ Premium</text>
+  <rect x="156" y="208" width="58" height="22" rx="11" fill="#264c3f" fill-opacity=".4" stroke="#2E7D52" stroke-opacity=".25"/>
+  <text x="185" y="222" fill="#F7FAF8" font-size="9" font-weight="700" text-anchor="middle">✓ Verified</text>
+
+  <!-- Stats row -->
+  <g transform="translate(28,246)">
+    <text x="33" y="14" fill="#F7FAF8" font-size="14" font-weight="700" text-anchor="middle">2y 3mo</text>
+    <text x="33" y="26" fill="#F7FAF8" fill-opacity=".4" font-size="8" font-weight="700" letter-spacing="1" text-anchor="middle">MEMBER</text>
+    <line x1="74" y1="2" x2="74" y2="26" stroke="#F7FAF8" stroke-opacity=".15"/>
+    <text x="113" y="14" fill="#F7FAF8" font-size="14" font-weight="700" text-anchor="middle">4</text>
+    <text x="113" y="26" fill="#F7FAF8" fill-opacity=".4" font-size="8" font-weight="700" letter-spacing="1" text-anchor="middle">CARDS</text>
+    <line x1="154" y1="2" x2="154" y2="26" stroke="#F7FAF8" stroke-opacity=".15"/>
+    <text x="194" y="14" fill="#F7FAF8" font-size="14" font-weight="700" text-anchor="middle">821</text>
+    <text x="194" y="26" fill="#F7FAF8" fill-opacity=".4" font-size="8" font-weight="700" letter-spacing="1" text-anchor="middle">SCORE</text>
+  </g>
+
+  <!-- Appearance row -->
+  <rect x="16" y="294" width="248" height="58" rx="16" fill="#264c3f" fill-opacity=".18" stroke="#2E7D52" stroke-opacity=".22"/>
+  <rect x="32" y="310" width="30" height="30" rx="9" fill="url(#modeIcon)"/>
+  <text x="47" y="330" fill="#F7FAF8" font-size="14" text-anchor="middle">🌙</text>
+  <text x="74" y="319" fill="#F7FAF8" font-size="12" font-weight="600">Appearance</text>
+  <text x="74" y="335" fill="#F7FAF8" fill-opacity=".62" font-size="10">Dark mode</text>
+  <rect x="218" y="313" width="34" height="22" rx="11" fill="#2E7D52"/>
+  <circle cx="241" cy="324" r="8" fill="#F7FAF8"/>
+
+  <!-- Settings list -->
+  <rect x="16" y="364" width="248" height="206" rx="16" fill="#264c3f" fill-opacity=".18" stroke="#2E7D52" stroke-opacity=".22"/>
+
+  <g font-size="11" fill="#F7FAF8">
+    <g transform="translate(32,376)"><rect width="30" height="30" rx="9" fill="#F7FAF8" fill-opacity=".06" stroke="#F7FAF8" stroke-opacity=".15"/><text x="15" y="20" font-size="13" text-anchor="middle">◯</text><text x="46" y="14" font-weight="600">Personal details</text><text x="46" y="26" fill-opacity=".5" font-size="9">Name, contact, address</text><text x="220" y="22" fill-opacity=".4" text-anchor="end">›</text></g>
+    <line x1="32" y1="416" x2="248" y2="416" stroke="#F7FAF8" stroke-opacity=".08"/>
+    <g transform="translate(32,420)"><rect width="30" height="30" rx="9" fill="#F7FAF8" fill-opacity=".06" stroke="#F7FAF8" stroke-opacity=".15"/><text x="15" y="20" font-size="13" text-anchor="middle">⛨</text><text x="46" y="14" font-weight="600">Security &amp; privacy</text><text x="46" y="26" fill-opacity=".5" font-size="9">PIN, biometrics, devices</text><text x="220" y="22" fill-opacity=".4" text-anchor="end">›</text></g>
+    <line x1="32" y1="460" x2="248" y2="460" stroke="#F7FAF8" stroke-opacity=".08"/>
+    <g transform="translate(32,464)"><rect width="30" height="30" rx="9" fill="#F7FAF8" fill-opacity=".06" stroke="#F7FAF8" stroke-opacity=".15"/><text x="15" y="20" font-size="13" text-anchor="middle">🔔</text><text x="46" y="14" font-weight="600">Notifications</text><text x="46" y="26" fill-opacity=".5" font-size="9">Push, email, alerts</text><text x="220" y="22" fill-opacity=".4" text-anchor="end">›</text></g>
+    <line x1="32" y1="504" x2="248" y2="504" stroke="#F7FAF8" stroke-opacity=".08"/>
+    <g transform="translate(32,508)"><rect width="30" height="30" rx="9" fill="#F7FAF8" fill-opacity=".06" stroke="#F7FAF8" stroke-opacity=".15"/><text x="15" y="20" font-size="13" text-anchor="middle">▭</text><text x="46" y="14" font-weight="600">Cards &amp; payments</text><text x="46" y="26" fill-opacity=".5" font-size="9">Manage cards &amp; limits</text><text x="220" y="22" fill-opacity=".4" text-anchor="end">›</text></g>
+    <line x1="32" y1="548" x2="248" y2="548" stroke="#F7FAF8" stroke-opacity=".08"/>
+    <g transform="translate(32,552)"><rect width="30" height="30" rx="9" fill="#F7FAF8" fill-opacity=".06" stroke="#F7FAF8" stroke-opacity=".15"/><text x="15" y="20" font-size="11" text-anchor="middle">🌐</text><text x="46" y="20" font-weight="600">Language</text><text x="170" y="20" fill-opacity=".62" font-size="10">English</text><text x="220" y="22" fill-opacity=".4" text-anchor="end">›</text></g>
+  </g>
+</svg>
