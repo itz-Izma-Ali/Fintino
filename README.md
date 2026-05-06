@@ -65,6 +65,21 @@ a UI demonstration, not a connected bank).
 
 ---
 
+## 📲 Try it on Android
+
+A pre-built **release APK** is included in the repo — no Flutter needed:
+
+> **[⬇ Download `fintino-v1.0.0.apk`](release/fintino-v1.0.0.apk)** · 21 MB · Android 5.0+
+
+Steps:
+1. Download the APK to your phone.
+2. Open it — Android may ask you to allow installs from this source.
+3. Tap **Install**, then launch **Fintino**.
+
+The app is offline-only with mock data — no permissions, no network calls.
+
+---
+
 ## 🚀 Getting started
 
 ### Prerequisites
